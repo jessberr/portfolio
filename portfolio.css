@@ -1,0 +1,78 @@
+#nav-div{
+  background-color: #8DA39C;
+  font-family: Andale Mono;
+  height: 55px;
+  width: 100%;
+  top:0;
+  position: fixed;
+
+}
+
+#navbar a{
+  color: white;
+  text-align: center;
+  margin-left: 45px;
+}
+
+#about-skills-links{
+  background-color: #3E181B;
+  color:white;
+  padding:15px;
+  font-family: Andale Mono;
+}
+
+#about-skills-links a{
+  color: white;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Lucida;
+  text-align: center;
+}
+
+#about, #skills, #profile-links{
+  border: .5px solid white;
+  margin:15px;
+  padding: 5px;
+}
+
+#projects-div, #contact-div{
+  font-family: Andale Mono;
+}
+#projects-div, #contact-div a{
+  color: black;
+  font-weight: bold;
+}
+
+#skills, #profile-links{
+  text-align: center;
+}
+
+#welcome-section{
+  padding-top: 0px;
+  margin-top: 100px;
+  display: block;
+  height: 100vh;
+}
+
+#projects-div{
+  margin-top: 300px;
+}
+
+h1{
+  font-family: Lucida;
+  font-style: italic;
+  font-size: 48px;
+  text-align: center;
+}
+
+footer{
+  background-color: #8DA39C;
+  color:white;
+  text-align: center;
+  height: 55px;
+  padding-top:5px;
+  font-size: 16px;
+  font-family: Andale Mono;
+}
