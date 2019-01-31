@@ -54,10 +54,28 @@ h2{
   margin-top: 100px;
   display: block;
   height: 100vh;
+  margin-bottom:10%;
 }
 
 #projects-div{
   margin-top: 300px;
+}
+
+.project-tile h3{
+  text-align: center;
+  font-family: Lucida;
+  font-style: italic;
+}
+
+img{
+  height: 270px;
+  width: 330px;
+  margin:10px;
+}
+
+#projects{
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 h1{
