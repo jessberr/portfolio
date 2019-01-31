@@ -1,11 +1,12 @@
 #nav-div{
   background-color: #8DA39C;
   font-family: Andale Mono;
-  height: 55px;
+  height: 35px;
   width: 100%;
   top:0;
   position: fixed;
-
+  text-align: center;
+  padding-top: 10px;
 }
 
 #navbar a{
@@ -54,11 +55,11 @@ h2{
   margin-top: 100px;
   display: block;
   height: 100vh;
-  margin-bottom:10%;
 }
 
 #projects-div{
   margin-top: 300px;
+  margin-bottom: 50px;
 }
 
 .project-tile h3{
@@ -71,6 +72,8 @@ img{
   height: 270px;
   width: 330px;
   margin:10px;
+  margin: 0 auto;
+  display: block;
 }
 
 #projects{
@@ -94,3 +97,47 @@ footer{
   font-size: 16px;
   font-family: Andale Mono;
 }
+
+@media(min-width: 600px) {
+  #about{
+    display:grid;
+    float:left;
+    padding-right:25px;
+    height: 271px;
+    line-height: 1.5em;
+  }
+
+  #about-skills-links{
+    height: 370px;
+  }
+
+  #projects-div{
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  #projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  #projects img{
+    padding-bottom: 15px;
+  }
+  }
+  @media(min-width: 900px) {
+    #projects-div{
+      margin-bottom: 50px;
+    }
+
+    #projects{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 10px;
+    }
+
+    #projects img{
+      padding-bottom: 15px;
+    }
+    }
